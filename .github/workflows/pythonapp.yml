@@ -24,6 +24,8 @@ jobs:
     - uses: actions/checkout@v2
     - name: Deploy project
       run: .github/workflows/state.exe deploy MyOrg/learn-python
+    - name: Deploy project
+      run: dir D:\a\learn-python\learn-python\.cache\bin
     - name: Lint with pylint
       run: pylint src
     - name: Lint with flake8
