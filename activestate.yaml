@@ -8,3 +8,4 @@ scripts:
   - name: lints
     description: Executes linting tools
     value: pylint src && flake8 src --statistics --count
+
